@@ -350,6 +350,49 @@ void LightShafts_float(float3 cameraPos, float3 cameraDir, float4x4 model, Unity
     }
 }
 
+
+void Bath_float(float3 cameraPos, float3 cameraDir, float4x4 worldToSDF, UnityTexture3D sdf, float pixelDepth, int samples, float sampleRate, out float alpha, out float3 averagePosition, out float density)
+{
+    alpha = 0;
+    density = 0;
+    averagePosition = float3(0, 0, 0);
+    float3 cameraSDFLocalPos = cameraPos;
+    float3 cameraSDFLocalDir = cameraDir;
+    float start = 0;
+    float depth = start;
+    float hits = 0;
+    for (int a = 0; a < samples; a++)
+    {
+        float3 p = cameraSDFLocalPos + (depth * cameraSDFLocalDir);
+        float dist = sdf.SampleLevel(SDF_linear_clamp_sampler, mul(worldToSDF, float4(p, 1)), 0).r;
+        if (dist < EPSILON)
+        {
+            alpha = 1;
+            for (int b = a; b < samples; b++)
+            {
+                p = cameraSDFLocalPos + (depth * cameraSDFLocalDir);
+                
+                float sample = sdf.SampleLevel(SDF_linear_clamp_sampler, mul(worldToSDF, float4(p, 1)), 0).r;
+                if (GetEyeDepth(p) > pixelDepth)
+                {
+                    break;
+                }
+                if (sample < EPSILON)
+                {
+                    density += sampleRate;
+                    averagePosition += p;
+                    hits++;
+                }
+                depth += sampleRate;
+            }
+            averagePosition /= hits;
+            break;
+        }
+        dist = abs(dist);
+        depth += dist;
+    }
+}
+
 void AveragePositionLight_float(float3 cameraPos, float3 cameraDir, float4x4 worldToSDF, UnityTexture3D sdf, float pixelDepth, int samples, float sampleRate, out float alpha, out float3 averagePosition, out float density)
 {
     alpha = 0;

@@ -192,12 +192,17 @@ public class SDFRenderer : MonoBehaviour
         }
     }
 
+    [SerializeField] private bool mesh;
+
     public void OnValidate()
     {
         ValidateSize();
         ValidateResolution();
         ValidateTexture();
-        UpdateMesh();
+        if (!mesh)
+        {
+            UpdateMesh();
+        }
     }
 
 

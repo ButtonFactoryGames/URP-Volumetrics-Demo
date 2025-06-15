@@ -57,12 +57,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _AXIS: 2
-    - _Offset: -1.38
+    - _Offset: -2.09
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Sample_Rate: 0.3
     - _Samples: 50
-    - _Spread: 0.25
+    - _Spread: 0.96
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
