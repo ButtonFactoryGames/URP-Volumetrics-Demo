@@ -2,355 +2,642 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data', plugins p
 Cmd: initializeCompiler
 
 Cmd: compileSnippet
-  insize=24034 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=3358
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(364): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(391): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(399): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(431): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(439): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(473): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(481): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
 
 Cmd: compileSnippet
-  insize=12458 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/SearchLightShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=47  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=934
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(364): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(391): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(399): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(431): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(439): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(473): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(481): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1630
 
 Cmd: compileSnippet
-  insize=22914 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/BeamLightShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_Y dKW=LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 _AXIS_X _AXIS_Z UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=48  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  insize=13327 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=ScenePickingPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=2556  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=934
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(364): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(391): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(399): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(431): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(439): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(473): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(481): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=686
 
 Cmd: compileSnippet
-  insize=11150 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/MistWispShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=47  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  insize=13329 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=SceneSelectionPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=2182  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=934
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(364): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(391): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(399): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(431): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(439): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(473): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(481): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=686
 
 Cmd: compileSnippet
-  insize=13456 file=/Shader Graphs/hidden/preview/Clamp_0c6e9530a5504cb28ce39d06660d2586 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=39  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  insize=21610 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/AxisLightShader pass=SceneSelectionPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_Z dKW=_AXIS_X _AXIS_Y UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=1708  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(364): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(391): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(399): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(431): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(439): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(473): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(481): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=686
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 2 plat 4 at 1/SDF/FX/SDFLighting.hlsl(354): syntax error: unexpected token 'f'
+ ok=0 outsize=0
+
+Cmd: compileSnippet
+  insize=13729 file=/Shader Graphs/hidden/preview/Power_1398814225c5465cabdf7a6a132df909 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 2 plat 4 at 1/SDF/FX/SDFLighting.hlsl(354): syntax error: unexpected token 'f'
+ ok=0 outsize=0
+
+
+Cmd: compileSnippet
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 2 plat 4 at 1/SDF/FX/SDFLighting.hlsl(387): undeclared identifier 'closestCell'
+ ok=0 outsize=0
+
+Cmd: compileSnippet
+  insize=13729 file=/Shader Graphs/hidden/preview/Power_1398814225c5465cabdf7a6a132df909 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 2 plat 4 at 1/SDF/FX/SDFLighting.hlsl(387): undeclared identifier 'closestCell'
+ ok=0 outsize=0
+
+Cmd: compileSnippet
+  insize=8900 file=/Shader Graphs/hidden/preview/BathCustomFunction_41d7bfcb47a44d9ba9a06790faab2568 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 2 plat 4 at 1/SDF/FX/SDFLighting.hlsl(387): undeclared identifier 'closestCell'
+ ok=0 outsize=0
+
+
+
+Cmd: compileSnippet
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
+
+Cmd: compileSnippet
+  insize=13729 file=/Shader Graphs/hidden/preview/Power_1398814225c5465cabdf7a6a132df909 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
  ok=1 outsize=626
 
 Cmd: compileSnippet
-  insize=18165 file=/Shader Graphs/hidden/preview/Multiply_1fef523e80f544d3838f7dfb40932033 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=39  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=8900 file=/Shader Graphs/hidden/preview/BathCustomFunction_41d7bfcb47a44d9ba9a06790faab2568 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
  ok=1 outsize=626
 
 Cmd: compileSnippet
-  insize=12435 file=/Shader Graphs/hidden/preview/AveragePositionLightCustomFunction_41d7bfcb47a44d9ba9a06790faab2568 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=39  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1630
+
+
+Cmd: compileSnippet
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
+
+Cmd: compileSnippet
+  insize=13729 file=/Shader Graphs/hidden/preview/Power_1398814225c5465cabdf7a6a132df909 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
  ok=1 outsize=626
 
 Cmd: compileSnippet
-  insize=23890 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=8900 file=/Shader Graphs/hidden/preview/BathCustomFunction_41d7bfcb47a44d9ba9a06790faab2568 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=3358
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=626
 
 Cmd: compileSnippet
-  insize=13328 file=/Shader Graphs/hidden/preview/Clamp_0c6e9530a5504cb28ce39d06660d2586 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=39  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=15903 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/LightShaftShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=2474
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1114
 
 Cmd: compileSnippet
-  insize=23716 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=17155 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=3406
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
 
 Cmd: compileSnippet
-  insize=14316 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at (364): implicit truncation of vector type
- ok=1 outsize=422
-
-Cmd: compileSnippet
-  insize=13185 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at (344): implicit truncation of vector type
- ok=1 outsize=338
-
-Cmd: compileSnippet
-  insize=17022 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/AxisLightShader pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW=_AXIS_Z dKW=DOTS_INSTANCING_ON INSTANCING_ON _AXIS_X _AXIS_Y UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=992  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=22055 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/BeamLightShader pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW=_AXIS_Y dKW=_CASTING_PUNCTUAL_LIGHT_SHADOW DOTS_INSTANCING_ON INSTANCING_ON _AXIS_X _AXIS_Z UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=1165  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=306
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1178
 
 Cmd: compileSnippet
-  insize=15903 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/LightShaftShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_SCREEN_SPACE_OCCLUSION dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=12458 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/SearchLightShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=47  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=80258
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=934
 
 Cmd: compileSnippet
-  insize=10201 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/MistWispShader pass=ScenePickingPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=1354  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=21608 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/AxisLightShader pass=ScenePickingPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_Z dKW=_AXIS_X _AXIS_Y UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=2241  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=290
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=686
 
 Cmd: compileSnippet
-  insize=21608 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/AxisLightShader pass=ScenePickingPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_Z dKW=_AXIS_X _AXIS_Y UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=2241  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=13329 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=SceneSelectionPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=2182  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=290
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=686
 
 Cmd: compileSnippet
-  insize=21608 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=ScenePickingPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_X dKW=_AXIS_Y _AXIS_Z UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=2241  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=20892 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (455): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=290
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
 
 Cmd: compileSnippet
-  insize=21610 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=SceneSelectionPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_X dKW=_AXIS_Y _AXIS_Z UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=1708  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=17131 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=322
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
 
 Cmd: compileSnippet
-  insize=13837 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49 ok=1 outsize=350
-
-Cmd: compileSnippet
-  insize=13326 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49 ok=1 outsize=338
-
-Cmd: compileSnippet
-  insize=18220 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=20892 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (455): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=986
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1630
 
 Cmd: compileSnippet
-  insize=18064 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=_DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 DEBUG_DISPLAY _SCREEN_SPACE_OCCLUSION _WRITE_RENDERING_LAYERS LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=49  error: 1 plat 4 at 1/SDF/FX/NoiseUtils.hlsl(77): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(142): implicit truncation of vector type
+  insize=16044 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (404): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
   error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(177): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(245): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(254): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(328): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(367): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(375): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(409): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(417): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(449): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(457): implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(491): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
-  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(499): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
- ok=1 outsize=986
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
 
 Cmd: compileSnippet
-  insize=11740 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW=_AXIS_X dKW=DOTS_INSTANCING_ON INSTANCING_ON _AXIS_Y _AXIS_Z UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=897 ok=1 outsize=282
+  insize=8715 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW= dKW=_CASTING_PUNCTUAL_LIGHT_SHADOW DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=947 ok=1 outsize=1122
 
 Cmd: compileSnippet
-  insize=11153 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=SceneSelectionPass ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_AXIS_X dKW=_AXIS_Y _AXIS_Z UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=1263 ok=1 outsize=290
+  insize=16044 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (404): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1630
+
 
 Cmd: compileSnippet
-  insize=12385 file=Assets/Shaders/Vol 2/Shader Graphs/ObjectSpaceMistShader pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW= dKW=DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=1 mask=6 start=787  error: 1 plat 4 at 2.hlsl(166): implicit truncation of vector type
-  error: 1 plat 4 at 2.hlsl(360): 'sdOrientedVesica': implicit truncation of vector type
-  error: 1 plat 4 at 2.hlsl(481): implicit truncation of vector type
-  error: 1 plat 4 at 2.hlsl(490): implicit truncation of vector type
-  error: 1 plat 4 at 2/NoiseUtils.hlsl(77): implicit truncation of vector type
- ok=1 outsize=306
+  insize=16044 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (404): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
+
+Cmd: compileSnippet
+  insize=15138 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
+
+Cmd: compileSnippet
+  insize=13729 file=/Shader Graphs/hidden/preview/Power_1398814225c5465cabdf7a6a132df909 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=626
+
+Cmd: compileSnippet
+  insize=8900 file=/Shader Graphs/hidden/preview/BathCustomFunction_41d7bfcb47a44d9ba9a06790faab2568 pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=36  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=626
+
+Cmd: compileSnippet
+  insize=15903 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/LightShaftShader pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1114
+
+Cmd: compileSnippet
+  insize=20906 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
+
+Cmd: compileSnippet
+  insize=8717 file=Assets/Shaders/Vol 1/SDF/FX/Shader Graphs/Bath pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW= dKW=_CASTING_PUNCTUAL_LIGHT_SHADOW DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=1011 ok=1 outsize=1122
+
+Cmd: compileSnippet
+  insize=20906 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1630
+
+Cmd: compileSnippet
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1414
+
+Cmd: compileSnippet
+  insize=20925 file=/Shader Graphs/Master pass=Universal Forward ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS dKW=LIGHTMAP_ON DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _FORWARD_PLUS DOTS_INSTANCING_ON INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=1 mask=6 start=46  error: 1 plat 4 at (454): implicit truncation of vector type
+  error: 1 plat 4 at (456): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/Noise.cginc(79): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(143): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(144): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(178): 'sdOrientedVesica': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(246): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(255): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(329): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(366): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(414): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(422): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(454): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(462): implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(496): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+  error: 1 plat 4 at 1/SDF/FX/SDFLighting.hlsl(504): 'UnityTexture3D::SampleLevel': implicit truncation of vector type
+ ok=1 outsize=1630
 
 Cmd: shutdown

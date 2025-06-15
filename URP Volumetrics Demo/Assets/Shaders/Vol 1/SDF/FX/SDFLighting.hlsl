@@ -1,3 +1,4 @@
+#include "Noise.cginc" 
 #include "NoiseUtils.hlsl" 
 #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
 
@@ -350,47 +351,51 @@ void LightShafts_float(float3 cameraPos, float3 cameraDir, float4x4 model, Unity
     }
 }
 
+static float STEPS = 50;
 
-void Bath_float(float3 cameraPos, float3 cameraDir, float4x4 worldToSDF, UnityTexture3D sdf, float pixelDepth, int samples, float sampleRate, out float alpha, out float3 averagePosition, out float density)
+void Bath_float(float3 cameraPos, float3 cameraDir, float4x4 worldToSDF, UnityTexture3D sdf, float pixelDepth, float maxDensity, int samples, float sampleRate, out float alpha, out float density)
 {
     alpha = 0;
     density = 0;
-    averagePosition = float3(0, 0, 0);
-    float3 cameraSDFLocalPos = cameraPos;
-    float3 cameraSDFLocalDir = cameraDir;
-    float start = 0;
-    float depth = start;
-    float hits = 0;
-    for (int a = 0; a < samples; a++)
+    float3 startPosition = cameraPos + (cameraDir * maxDensity);
+    float3 backDirection = -cameraDir;
+    float depth = 0;
+    for (int i = 0; i < samples; i++)
     {
-        float3 p = cameraSDFLocalPos + (depth * cameraSDFLocalDir);
+        float3 p = startPosition + (depth * backDirection);
         float dist = sdf.SampleLevel(SDF_linear_clamp_sampler, mul(worldToSDF, float4(p, 1)), 0).r;
         if (dist < EPSILON)
         {
-            alpha = 1;
-            for (int b = a; b < samples; b++)
-            {
-                p = cameraSDFLocalPos + (depth * cameraSDFLocalDir);
-                
-                float sample = sdf.SampleLevel(SDF_linear_clamp_sampler, mul(worldToSDF, float4(p, 1)), 0).r;
-                if (GetEyeDepth(p) > pixelDepth)
-                {
-                    break;
-                }
-                if (sample < EPSILON)
-                {
-                    density += sampleRate;
-                    averagePosition += p;
-                    hits++;
-                }
-                depth += sampleRate;
-            }
-            averagePosition /= hits;
+           // alpha = 1;
             break;
         }
-        dist = abs(dist);
+        dist = abs(max(dist, MINIMUM_MOVE));
         depth += dist;
     }
+    
+    float3 surface = startPosition + (depth * backDirection);
+    float iteration = maxDensity / STEPS;
+    float thickness = length(surface - cameraPos);
+    density = clamp(length(thickness) / maxDensity, 0, 1.f);
+    startPosition = cameraPos;
+    float3 forwardDirection = cameraDir;
+    depth = 0;
+    
+    for (i = 0; i < STEPS; i++)
+    {
+        float3 p = startPosition + (depth * forwardDirection);
+        if (length(closestCell(p).xyz - p) < 0.1)
+        {
+            alpha = 1;
+        }
+        if(depth > thickness)
+        {
+            break;
+        }
+        depth += iteration;
+    }
+    
+
 }
 
 void AveragePositionLight_float(float3 cameraPos, float3 cameraDir, float4x4 worldToSDF, UnityTexture3D sdf, float pixelDepth, int samples, float sampleRate, out float alpha, out float3 averagePosition, out float density)

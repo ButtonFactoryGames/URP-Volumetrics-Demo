@@ -15,7 +15,7 @@ C:/Users/Joe Millward/Documents/ButtonFactory/URP Volumetrics Demo/URP Volumetri
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60234
+63564
 Successfully changed project path to: C:/Users/Joe Millward/Documents/ButtonFactory/URP Volumetrics Demo/URP Volumetrics Demo
 C:/Users/Joe Millward/Documents/ButtonFactory/URP Volumetrics Demo/URP Volumetrics Demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Joe Millward/Documents/ButtonFactory/URP Volumetrics Demo/URP Volumetri
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23404] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3712111262 [EditorId] 3712111262 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F19LFLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7436] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 130602685 [EditorId] 130602685 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F19LFLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23404] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3712111262 [EditorId] 3712111262 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F19LFLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7436] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 130602685 [EditorId] 130602685 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F19LFLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 74.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011534 seconds.
-- Loaded All Assemblies, in  0.310 seconds
+Registered in 0.008030 seconds.
+- Loaded All Assemblies, in  0.271 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 394 ms
+Android Extension - Scanning For ADB Devices 198 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.652 seconds
-Domain Reload Profiling: 961ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 725ms
+	BeginReloadAssembly (71ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (106ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (106ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (653ms)
+	FinalizeReload (456ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (608ms)
+		SetupLoadedEditorAssemblies (410ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (492ms)
+			InitializePlatformSupportModulesInManaged (291ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (79ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,52 +119,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Joe Millward\Documents\ButtonFactory\URP Volumetrics Demo\URP Volumetrics Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Joe Millward\Documents\ButtonFactory\URP Volumetrics Demo\URP Volumetrics Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.760 seconds
-Refreshing native plugins compatible for Editor in 25.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.728 seconds
-Domain Reload Profiling: 1479ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.763 seconds
+Domain Reload Profiling: 1407ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (577ms)
-		LoadAssemblies (384ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (210ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (729ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (764ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (573ms)
+		SetupLoadedEditorAssemblies (590ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (396ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5916 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (1.1 MB). Loaded Objects now: 6381.
-Memory consumption went from 249.4 MB to 248.2 MB.
-Total: 3.743900 ms (FindLiveObjects: 0.333600 ms CreateObjectMapping: 0.266700 ms MarkObjects: 2.822900 ms  DeleteObjects: 0.320100 ms)
+Unloading 6028 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.1 MB). Loaded Objects now: 6493.
+Memory consumption went from 252.1 MB to 251.0 MB.
+Total: 4.769000 ms (FindLiveObjects: 0.456600 ms CreateObjectMapping: 0.287900 ms MarkObjects: 3.731200 ms  DeleteObjects: 0.292600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,25 +179,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1618682.160256 seconds.
-  path: Assets/Shaders/Vol 1/SDF/FX/Bath.shadergraph
-  artifactKey: Guid(8765fe67e9c20a244ad40d7924111704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Vol 1/SDF/FX/Bath.shadergraph using Guid(8765fe67e9c20a244ad40d7924111704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99231b73f6b01a89b2131a167963c91d') in 0.017066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 173.545279 seconds.
-  path: Assets/Shaders/Vol 3/Noise.cginc
-  artifactKey: Guid(5494a67704d93d4468960b5ad720a58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Vol 3/Noise.cginc using Guid(5494a67704d93d4468960b5ad720a58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb70a11b41c0dc8cf3b31bb4067e76a') in 0.000937 seconds
+  Time since last request: 1638253.009885 seconds.
+  path: Assets/Shaders/Vol 3/Smoke v3.shadergraph
+  artifactKey: Guid(7abd51c14badabe499d1e61fba17716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vol 3/Smoke v3.shadergraph using Guid(7abd51c14badabe499d1e61fba17716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab129d84435c43002997ffde0d09f8bd') in 0.003009 seconds
 Number of updated asset objects reloaded before import = 1
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.175827 seconds.
-  path: Assets/Shaders/Vol 3/Vol3.hlsl
-  artifactKey: Guid(965315c20d8fb6f48b14005d8187290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Vol 3/Vol3.hlsl using Guid(965315c20d8fb6f48b14005d8187290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036481c5a678f5f061212d6be3fbcb7d') in 0.000902 seconds
+  Time since last request: 1006.646581 seconds.
+  path: Assets/Shaders/Vol 2/Noise.cginc
+  artifactKey: Guid(b8cfa1722bde1ca46b66da77ca1e921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vol 2/Noise.cginc using Guid(b8cfa1722bde1ca46b66da77ca1e921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299ee65d572fa21f41e066bb496a638f') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 94.116118 seconds.
+  path: Assets/Shaders/Vol 1/SDF/FX/Bath.shadergraph
+  artifactKey: Guid(8765fe67e9c20a244ad40d7924111704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vol 1/SDF/FX/Bath.shadergraph using Guid(8765fe67e9c20a244ad40d7924111704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bd994d112fbe65d29769c6bf93bc68') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.488652 seconds.
+  path: Assets/Shaders/Vol 1/SDF/FX/Noise.cginc
+  artifactKey: Guid(117435f1f20f2e14bb71e09ed2656e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vol 1/SDF/FX/Noise.cginc using Guid(117435f1f20f2e14bb71e09ed2656e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08621660d02baa6ac22c5907c5a9b8eb') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 144.128204 seconds.
+  path: Assets/Shaders/Vol 1/SDF/FX/Noise.cginc
+  artifactKey: Guid(117435f1f20f2e14bb71e09ed2656e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vol 1/SDF/FX/Noise.cginc using Guid(117435f1f20f2e14bb71e09ed2656e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7c51411a281946a243b9ec3da86a71') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.552722 seconds.
+  path: Assets/Shaders/Vol 1/SDF/FX/MistWispShader.shadergraph
+  artifactKey: Guid(ac50a04e5f658314d830122fb43c8160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vol 1/SDF/FX/MistWispShader.shadergraph using Guid(ac50a04e5f658314d830122fb43c8160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3aa3b79874fa8ff5b1ac96fac6000a') in 0.000839 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1

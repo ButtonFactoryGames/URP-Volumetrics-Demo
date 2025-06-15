@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: SDF Settings
   m_EditorClassIdentifier: 
   m_MaxResolution: 128
-  m_BoxCenter: {x: 0, y: 0, z: 0}
-  m_BoxSizeReference: {x: 1.1, y: 1.1, z: 1.1}
+  m_BoxCenter: {x: 0.0016123801, y: 0.22588453, z: -0.002911359}
+  m_BoxSizeReference: {x: 1, y: 0.57, z: 1.8}
   m_FitPaddingVoxel: {x: 1, y: 1, z: 1}
   m_SignPassesCount: 1
   m_InOutThreshold: 0.5
   m_SurfaceOffset: 0
   m_ModelSource: 0
-  m_SelectedMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_SelectedMesh: {fileID: -3212334644748831482, guid: 754fd3a1a29ccf74bbf0528402b78d55,
+    type: 3}
   m_MeshPrefab: {fileID: 0}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -3212334644748831482, guid: 754fd3a1a29ccf74bbf0528402b78d55, type: 3}
   m_LiftSizeLimit: 0
   m_PreviewObject: 3

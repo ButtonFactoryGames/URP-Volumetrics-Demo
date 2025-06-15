@@ -21,6 +21,15 @@ public class SDFInteriorRenderer : MonoBehaviour
     private int kMaxResolution = 2048;
     // Max compute buffer size
     private int kMaxVoxelCount = 1024 * 1024 * 1024 / 2;
+
+    [NaughtyAttributes.Button]
+    private void print()
+    {
+        Debug.Log(transform.localToWorldMatrix);
+        var x = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
+        Debug.Log(x);
+    }
+    
     void Update()
     {
         if (sdf == null)
@@ -112,7 +121,12 @@ public class SDFInteriorRenderer : MonoBehaviour
         {
             Vector3 scaleScaled = voxelBounds.size * scale;
             Matrix4x4 localToSDFLocal = Matrix4x4.Scale(new Vector3(1.0f / scaleScaled.x, 1.0f / scaleScaled.y, 1.0f / scaleScaled.z));
-            Matrix4x4 worldToSDFLocal = localToSDFLocal * transform.worldToLocalMatrix;
+            var x = transform.position;
+         //  transform.position = m_Renderer.bounds.center;
+            var x1 = Matrix4x4.TRS(m_Renderer.bounds.center, transform.rotation, transform.lossyScale).inverse;
+            Matrix4x4 worldToSDFLocal = localToSDFLocal * x1;
+           // Matrix4x4 worldToSDFLocal = localToSDFLocal * (Matrix4x4.Translate(transform.position - m_Renderer.bounds.center) * transform.worldToLocalMatrix);
+            //transform.position = x;
             return Matrix4x4.Translate(Vector3.one * 0.5f) * worldToSDFLocal;
         }
     }
